@@ -1,0 +1,57 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+*.log.*
+log.txt
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# MongoDB data dump (if any)
+dump/
+
+# IDEs
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.swp
+
+# Optional: ignore uploads or temp directories (if used)
+uploads/
+temp/
+
+# Ignore frontend and backend environment configs
+frontend/.env
+backend/.env
+
+# Config files (excluded from git)
+backend/config/
+frontend/config/
