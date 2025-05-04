@@ -1,0 +1,24 @@
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .status {
+    font-size: 0.875rem;
+    color: white;
+    background: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius);
+  }

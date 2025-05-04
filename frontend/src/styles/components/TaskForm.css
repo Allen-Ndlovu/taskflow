@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input,
+  .textarea,
+  .select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    flex: 1;
+    min-width: 150px;
+    transition: border var(--transition-speed);
+  }
+  
+  .input:focus,
+  .textarea:focus,
+  .select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+  }
+  
+  .button {
+    background: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    transition: background var(--transition-speed);
+  }
+  
+  .button:hover {
+    background: #3a78c2;
+  }

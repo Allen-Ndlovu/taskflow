@@ -1,29 +1,22 @@
-# TaskFlow - Project Management System
+TaskFlow
 
-TaskFlow is a simple full-stack project management app that allows teams to create, assign, update, and track tasks in real-time. It's built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+TaskFlow is a full-stack project management system leveraging the MERN stack and modern frontend CSS techniques. It enables teams to create, assign, update, and track tasks in real time with secure authentication and a responsive UI.
 
----
+Tech Stack
 
-## Features
+Backend:
 
-- Add, update, delete tasks
-- Assign tasks to team members
-- Track task progress (To Do, In Progress, Done)
-- Set deadlines and monitor statuses
+-Node.js & Express.js (RESTful API)
 
----
+-MongoDB & Mongoose (NoSQL database and ODM)
 
-##  Technologies Used
+-JSON Web Tokens (JWT) for authentication
 
-**Frontend**
-- React.js
-- Axios
 
-**Backend**
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+Frontend:
 
----
+-React.js (component-based UI)
 
+-Redux & Redux Thunk (state management and async actions)
+
+-Advanced CSS
